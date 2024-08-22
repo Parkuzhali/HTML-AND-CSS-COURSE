@@ -16,6 +16,10 @@ body{
    flex-wrap: wrap;
    justify-content: space-between;
    background-image: url(bgregform.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
 }
 legend{
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

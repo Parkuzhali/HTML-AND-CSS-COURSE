@@ -1,15 +1,5 @@
-
-.he1
-{
-    background-color: lightblue;
-    width: 1420px;
-    height: 100px;
-    padding: 55px;
-    text-align: center;
-    padding-bottom: 25px;
-    background-image: url(bg2.jpeg);
-    
-    margin: 10px;
+body{
+    background-color: bisque;
 }
 .form{
     background-color: beige;
@@ -25,6 +15,7 @@
    flex-direction: column;
    flex-wrap: wrap;
    justify-content: space-between;
+   background-image: url(profile/bgregform.jpeg);
 }
 legend{
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

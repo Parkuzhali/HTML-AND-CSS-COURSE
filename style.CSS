@@ -1,10 +1,4 @@
-body{
-    background-image: url(profile/bg4.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+
 .he1
 {
     background-color: lightblue;
@@ -13,33 +7,9 @@ body{
     padding: 55px;
     text-align: center;
     padding-bottom: 25px;
-    background-image: url(profile/bg2.jpeg);
+    background-image: url(bg2.jpeg);
     
     margin: 10px;
-}
-#id12{
-    color:red;
-  font-size: 25px;
-}
-.para{
-    font-size: 18px;
-}
-.para12>p{
-    font-size: 18px;
-}
-li{
-    font-size: 18px;
-    color:black;
-}
-footer{
-    background-color: #333;
-    color: white;
-   text-align: center;
-   width: 1520px;
-   height: 55px;
-   margin-top: 150px;
-   font-size: 18px;
-  padding-top: 10px;
 }
 .form{
     background-color: beige;

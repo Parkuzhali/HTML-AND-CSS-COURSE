@@ -1,0 +1,69 @@
+body{
+    background-image: url(profile/bg4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.he1
+{
+    background-color: lightblue;
+    width: 1420px;
+    height: 100px;
+    padding: 55px;
+    text-align: center;
+    padding-bottom: 25px;
+    background-image: url(profile/bg2.jpeg);
+    
+    margin: 10px;
+}
+#id12{
+    color:red;
+  font-size: 25px;
+}
+.para{
+    font-size: 18px;
+}
+.para12>p{
+    font-size: 18px;
+}
+li{
+    font-size: 18px;
+    color:black;
+}
+footer{
+    background-color: #333;
+    color: white;
+   text-align: center;
+   width: 1520px;
+   height: 55px;
+   margin-top: 150px;
+   font-size: 18px;
+  padding-top: 10px;
+}
+.form{
+    background-color: beige;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: radius 10px;
+    padding-left: 250px;
+    padding-top: 50px;
+    width:10px 50px 10px 50px;
+    margin: 0 300px 0 300px;
+   size: 50cap;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+legend{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form label{
+    width: 0 50px;
+    border-radius: 5rem;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}

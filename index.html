@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrion form</title>
+    <link rel="stylesheet" href="style.CSS">
+    <script src="form.js" defer></script>
+</head>
+<body>
+    
+       <fieldset class="form">
+        <legend>Registerform</legend>
+        <form action="" id="form" method="post">
+            <div>
+        <label for="Fname">FirstName:</label>
+        <input type="text" id="Fname"name="firstname" placeholder="abc" maxlength="13" required><br><br></div>
+        <label for="Lname">LastName:</label>
+        <input type="text" id="Lname" name="lastname" placeholder="xyz" maxlength="15" required><br><br>
+        <label for="dob">DateOfBirth:</label>
+        <input type="date" id="dob" reqired><br>
+            <pre>
+Gender:
+<input type="radio" name="gender" id="male" value="male"><label for="male">male</label>  <input type="radio" name="gender" id="female" value="female"><label for="male">female</label></pre>       
+    <label for="mail">Email:</label>
+        <input type="email" id="mail" placeholder="abc@gmail.com" required> <br><br>
+        <div class="inputgroup">
+        <label for="ps">password:</label>
+        <input type="password" name="password" id="ps" required><br><br>
+    <div class="error"></div>
+    </div>
+    <div class="inputgroup">
+        <label for="cp">ConfirmPassword:</label>
+        <input type="password" id="cp" required><br><br>
+       <div class="error"></div>
+    </div>
+        <label for="ph">Contact:</label>
+        <input type="tel" id="ph" name="Phonenumber" maxlength="10" required> <br><br>
+        <label for="add">Address:</label>
+        <input type="text" id="add" name="Address" required><br><br>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required><br><br>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+       </fieldset>
+
+</body>
+</html>
